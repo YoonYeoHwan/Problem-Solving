@@ -1,3 +1,5 @@
+// 1347. Minimum Number of Steps to Make Two Strings Anagram
+
 class Solution {
 public:
     int minSteps(string s, string t) {
