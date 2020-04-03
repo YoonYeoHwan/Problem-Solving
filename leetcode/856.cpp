@@ -12,13 +12,14 @@ public:
                 tmp++;
             }
             else {
-                if(s.top() == '(') {
-                    score += pow(2, tmp - 1);
-                }
                 tmp--;
+                if(s.top() == '(') {
+                    score += pow(2, tmp);
+                }
                 s.push(S[i]);
             }
         }
         return score;
     }
 };
+
